@@ -1,0 +1,120 @@
+    header{
+        width: 100%;
+        height: 50px;
+        background-color: #111111;
+    }
+    body{
+        
+    }
+
+
+
+    .nav
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-items {
+        display: flex;
+        list-style: none;
+        gap: 50px;
+        color: white;
+        cursor: pointer;
+        
+    }
+
+    section{
+        margin: 10px;
+        margin-top: 35px;
+    }
+
+    .blog-card{
+        padding: 20px;
+        margin: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: linear-gradient(violet, skyblue);
+    }
+
+    .blog-body{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 55px;
+        margin-top:45px ;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+
+    img{
+        width: 360px;
+        height: 350px;
+        border: 3px solid black;
+    }
+
+    .blog-card p{
+        width: 400px;
+        
+        
+        /* position: absolute; */
+    }
+
+    .blog-body-two{
+        border: 2px solid black ;
+        background-image: linear-gradient(gold, skyblue);
+
+    }
+
+
+    .card-two{
+        border: 2px solid black;
+        position: absolute;
+        top: 245px;
+        left: 218px;
+        
+        width: 385px;
+        height: 370px;
+    }
+
+    .card-three{
+        
+        border: 2px solid black;
+        position: absolute;
+        top: 235px;
+        left: 218px;
+
+        width: 395px;
+        height: 380px;
+    }
+
+    .category-head{
+        font-size: xx-large; 
+        border: 2px solid black; 
+        width: 300px;
+        text-align: center;
+        padding: 15px;
+        
+    }
+
+    .caption-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .blog-card h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+
+
+    .blog-card p{
+        font-size: 18px;
+        text-align: center;
+        font-family: sans-serif;
+    }
